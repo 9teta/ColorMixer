@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".fragment.ColorMixerFragment">
+
+
+    <GridLayout
+        android:id="@+id/colorGrid"
+        android:layout_width="300dp"
+        android:layout_height="380dp"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="5">
+
+
+        <!--        row 0-->
+        <LinearLayout
+            android:id="@+id/upperCell1"
+            android:layout_row="0"
+            android:layout_rowWeight="4"
+            android:layout_column="0"
+            android:layout_columnWeight="10"
+            android:background="@color/black"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/upperCell2"
+            android:layout_row="0"
+            android:layout_rowWeight="4"
+            android:layout_column="1"
+            android:layout_columnWeight="10"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/redValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:gravity="bottom|center"
+                android:text="FF"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/upperCell3"
+            android:layout_row="0"
+            android:layout_rowWeight="4"
+            android:layout_column="2"
+            android:layout_columnWeight="10"
+            android:background="@color/black"
+            android:orientation="horizontal" />
+
+        <!--        row 1-->
+        <LinearLayout
+            android:id="@+id/cell1"
+            android:layout_row="1"
+            android:layout_rowWeight="10"
+            android:layout_column="0"
+            android:layout_columnWeight="10"
+            android:background="@color/black"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/cell2"
+            android:layout_row="1"
+            android:layout_rowWeight="10"
+            android:layout_column="1"
+            android:layout_columnWeight="10"
+            android:background="@color/red"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/cell3"
+            android:layout_row="1"
+            android:layout_rowWeight="10"
+            android:layout_column="2"
+            android:layout_columnWeight="10"
+            android:background="@color/black"
+            android:orientation="horizontal" />
+
+        <!--        row 2-->
+        <LinearLayout
+            android:id="@+id/cell4"
+            android:layout_row="2"
+            android:layout_rowWeight="10"
+            android:layout_column="0"
+            android:layout_columnWeight="10"
+            android:background="@color/magenta"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/cell5"
+            android:layout_row="2"
+            android:layout_rowWeight="10"
+            android:layout_column="1"
+            android:layout_columnWeight="10"
+            android:background="@color/white"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/cell6"
+            android:layout_row="2"
+            android:layout_rowWeight="10"
+            android:layout_column="2"
+            android:layout_columnWeight="10"
+            android:background="@color/yellow"
+            android:orientation="horizontal" />
+
+        <!--        row 3-->
+        <LinearLayout
+            android:id="@+id/cell7"
+            android:layout_row="3"
+            android:layout_rowWeight="10"
+            android:layout_column="0"
+            android:layout_columnWeight="10"
+            android:background="@color/blue"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/cell8"
+            android:layout_row="3"
+            android:layout_rowWeight="10"
+            android:layout_column="1"
+            android:layout_columnWeight="10"
+            android:background="@color/cyan"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/cell9"
+            android:layout_row="3"
+            android:layout_rowWeight="10"
+            android:layout_column="2"
+            android:layout_columnWeight="10"
+            android:background="@color/green"
+            android:orientation="horizontal" />
+
+        <!--        row 4-->
+        <LinearLayout
+            android:id="@+id/underCell7"
+            android:layout_row="4"
+            android:layout_rowWeight="4"
+            android:layout_column="0"
+            android:layout_columnWeight="10"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/blueValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:text="FF"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/underCell8"
+            android:layout_row="4"
+            android:layout_rowWeight="4"
+            android:layout_column="1"
+            android:layout_columnWeight="10"
+            android:background="@color/black"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/underCell9"
+            android:layout_row="4"
+            android:layout_rowWeight="4"
+            android:layout_column="2"
+            android:layout_columnWeight="10"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/greenValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top|center"
+                android:text="FF"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/colorMixerSaveColorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20dp"
+        android:text="Save color" />
+
+
+</FrameLayout>

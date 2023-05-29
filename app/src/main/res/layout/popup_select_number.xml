@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--    4 col * 40-->
+<!--    5 row * 40-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_width="320dp"
+    android:layout_height="320dp">
+
+    <TextView
+        android:id="@+id/popup_text"
+        android:text="number"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_height="40dp"
+        android:layout_width="match_parent"/>
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="4">
+
+        <!--    row    -->
+        <Button
+            android:id="@+id/popup_button_0"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/popup_button_1"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/popup_button_2"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/popup_button_3"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="3" />
+
+        <!--    row    -->
+        <Button
+            android:id="@+id/popup_button_4"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/popup_button_5"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/popup_button_6"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/popup_button_7"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="7" />
+        <!--    row    -->
+        <Button
+            android:id="@+id/popup_button_8"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/popup_button_9"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/popup_button_A"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="A" />
+
+        <Button
+            android:id="@+id/popup_button_B"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="B" />
+        <!--    row    -->
+        <Button
+            android:id="@+id/popup_button_C"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="C" />
+
+        <Button
+            android:id="@+id/popup_button_D"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="D" />
+
+        <Button
+            android:id="@+id/popup_button_E"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="E" />
+
+        <Button
+            android:id="@+id/popup_button_F"
+            android:width="0dp"
+            android:layout_width="50dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="F" />
+
+
+
+
+    </GridLayout>
+</LinearLayout>
